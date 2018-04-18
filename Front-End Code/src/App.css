@@ -28,61 +28,37 @@
   to { transform: rotate(360deg); }
 }
 
-body{
-	background-color: #F1BF98;
-	
+body {
+  background-color: #F1BF98;	
 }
 
-        .navWide {
-            display: block;
-			background-color: #CC2936;
-			overflow: hidden;
-        }
-    
-
-.navWide a {
-    float: left;
-    color: #EEE5E9;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.navWide a:hover {
-    background-color: #F1BF98;
-    color: #CC2936;
-}
-
-/* Add a color to the active/current link */
-.navWide a.active {
-    background-color: #CC2936;
-    color: #6B818C;
+.navWide {
+  display: block;
+  background-color: #CC2936;
+  overflow: hidden;
+  padding: 14px 16px;
 }
 
 button {
-    background-color: #CC2936; 
-    border: none;
-	border-radius: 7px;
-    color: white;
-    padding: 20px 50px;
-	margin-left: 10px;
-	margin-top: 5% ;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-	opacity: 0.6;
-	transition: 0.3s;
+  background-color: #CC2936; 
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 20px 50px;
+  margin-left: 10px;
+  margin-top: 5% ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-button:hover{
-opacity: 1;
-
+button:hover {
+  opacity: 1;
 }
 
-.heading{
-margin-top: 5%;
-
+.heading {
+  margin-top: 5%;
 }
