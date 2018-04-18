@@ -1,0 +1,27 @@
+{
+  "name": "testapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://keziadavies.panel.uwe.ac.uk/react/",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
+    "morgan": "^1.9.0",
+    "pubnub": "^4.20.2",
+    "pubnub-react": "^1.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
